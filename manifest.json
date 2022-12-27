@@ -5,7 +5,7 @@
   "description": "Chrome extension to download videos from streamable.com",
   "homepage_url": "https://github.com/brownfieldd00/",
   "short_name": "StreamableDownloader",
-  "author": "brownfieldd00@gmail.com",
+  "author": "[brownfieldd00] (@) gmail.com",
   "content_scripts": [
     {
       "js": ["scripts/main.js"],
