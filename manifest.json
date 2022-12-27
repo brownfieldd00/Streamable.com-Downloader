@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "Streamable Downloader",
+  "version": "1.0",
+  "description": "Chrome extension to download videos from streamable.com",
+  "homepage_url": "https://github.com/brownfieldd00/",
+  "short_name": "StreamableDownloader",
+  "author": "brownfieldd00@gmail.com",
+  "content_scripts": [
+    {
+      "js": ["scripts/main.js"],
+      "matches": [
+        "https://streamable.com/*"
+      ]
+    }
+  ]
+}
